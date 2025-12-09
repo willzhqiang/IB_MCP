@@ -23,10 +23,13 @@ cors:
 webApps:
     - name: "demo"
       index: "index.html"
-ips:
-  allow:
-    - 192.*
-    - 131.216.*
-    - 172.*
-  deny:
-    - 212.90.324.10
+# IP access control - commented out for local development
+# Uncomment and configure for production use
+# ips:
+#   allow:
+#     - 127.*
+#     - 192.*
+#     - 131.216.*
+#     - 172.*
+#   deny:
+#     - 212.90.324.10

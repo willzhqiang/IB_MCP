@@ -1,9 +1,0 @@
-{
-	"servers": {
-		"ib-mcp-server": {
-			"type": "http",
-			"url": "http://localhost:5002/mcp/"
-		}
-	},
-	"inputs": []
-}
